@@ -1,0 +1,98 @@
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height:50%
+  }
+  
+  .columnleft {
+    float: left;
+    width: 40% ;
+    background-image: url(images/B.jpg);
+    background-position: center center;
+    background-size: cover;
+    object-fit: fill;
+    height: 100%;
+  }
+  
+  .columnright {
+   float: right;
+   width: 60%;
+   height: 100%;
+  }
+
+.java {
+float:right;
+width: 137px ;
+height: 132px;
+content: url("images/java.jpg");
+column-fill: auto;
+justify-content: center;
+padding-right: 25px;
+padding-top: 25px;
+}
+  
+  .words {
+    font-family: 'bebasneue-regular', sans-serif;                          
+    font-size: 20px;
+    font-weight:400;
+    color:black;
+    padding-right: 25px;
+	padding-left: 25px;
+    text-align: RIGHT;
+  }
+  
+  .title {        
+    font-family: 'Abrilfatface-regular', serif;                            
+    font-size: 60px;
+    font-weight:400;
+    text-align: right;
+    line-height: 0px;
+	padding-right: 25px;
+    padding-top: 150px;
+    color: black;
+  }
+  
+  .subhead {
+    font-family: 'gruppo-regular', sans-serif;
+    font-size: 20px;
+    font-weight: 0;
+    text-align: right;
+    color: black;
+	padding-right: 25px;
+    padding-bottom: 10px;
+  }
+
+  .topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: white;
+  }
+  
+  .navfont {        
+    font-family: 'Abrilfatface-regular', serif;                                     
+    font-size: 17px;
+    font-weight:200;
+    text-align: center;
+    padding-top: 110px;
+    font-color:black;
+	color: black;
+  }
